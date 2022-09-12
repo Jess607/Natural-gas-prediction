@@ -4,6 +4,9 @@ This project is a published research work utilizing four machine learning algori
 # Table Of Contents
 * [Installation](https://github.com/Jess607/Natural-gas-prediction#installation)
 * [About the Project](https://github.com/Jess607/Natural-gas-prediction#about-the-project)
+* [Data Gathering](https://github.com/Jess607/Natural-gas-prediction#data-gathering)
+* [File Description](https://github.com/Jess607/Natural-gas-prediction#file-description)
+* [Limitations](https://github.com/Jess607/Natural-gas-prediction#limitations)
 
 # Installation 
 The code requires python versions of 3 and above and basic data wrangling and machine learning packages.
@@ -21,4 +24,14 @@ Model evaluation was carried out by checking the Root Mean Square Error (RMSE) v
 
 # Data Gathering 
 Data was gathered from the Energy Information Administration (EIA) website and ofx.com to create an independent dataset that was used for analysis and model building.
+
+# File Description 
+The folder contains a jupyter notebook file that contains the python code implementaion and a csv file of the data gathered available for download for analysis. 
+
+# Limitations 
+* The greatest limitation to the study was the fact that the data gathered was quite sparse. Data gathered was taken from January 2001 to November 2021. This was to account for more recent economic occurrences in the last decade and also due to non availability of some data needed for analysis. 
+
+* The prediction was carried out for long term natural gas price i.e, monthly which may not be as substantially useful as a daily or hourly prediction especially with regards to players in the natural gas market. 
+
+
 
